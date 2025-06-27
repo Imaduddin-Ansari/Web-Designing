@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-Montserrat">
+    <div class="h-1/2 lg:h-screen">
+        <nav class="w-full fixed-nav top-0 bg-white">
+            <div class="container mx-auto py-5 p-1 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <a href="index.html">
+                    <img class="w-8" src="./img/dot.svg" alt=""></a>
+                    <span class="text-1xl font-bold text-black">IMAD</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 text-gray-500 font-semibold">
+                    <li class="hover:text-black">
+                        <a href="./personalpage.html">Personal Profile</a>
+                    </li>
+                    <li class="hover:text-black">
+                        <a href="./gallerypage.html">Gallery Page</a>
+                    </li>
+                    <li class="hover:text-black">
+                        <a href="./careergoals.html">Career Goals</a>
+                    </li>
+                    <li class="hover:text-black">
+                        <a href="./project.html">Projects</a>
+                    </li>
+                    <li class="hover:text-black">
+                        <a href="./skillsandinterest.html">Skills and Interests</a>
+                    </li>
+                    <li class="hover:text-black text-black">
+                        <a href="./contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer">
+                    <div class="w-6 h-1 bg-black rounded-xl"></div>
+                    <div class="w-6 h-1 bg-black rounded-xl"></div>
+                    <div class="w-6 h-1 bg-black rounded-xl"></div>
+                </div>
+                <ul id="menu" class="hidden bg-white absolute left-0 top-20 w-full p-10 space-y-10 text-b rounded-2xl">
+                    <li>
+                        <a href="./personalpage.html">Personal Profile</a>
+                    </li>
+                    <li>
+                        <a href="./gallerypage.html">Gallery Page</a>
+                    </li>
+                    <li>
+                        <a href="./careergoals.html">Career Goals</a>
+                    </li>
+                    <li>
+                        <a href="./project.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./skillsandinterest.html">Skills and Interests</a>
+                    </li>
+                    <li>
+                        <a href="./contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="max-w-6xl md:mx-auto ml-4 mr-4 mb-4 bg-gradient-to-r from-blue-100 to-blue-50 mt-9 rounded-3xl flex flex-col md:flex-row items-center">
+            <div class="md:w-full">
+              <img src="./img/mail.gif" alt="Contact" class="w-full rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl object-cover">
+            </div>
+            <div class="md:w-full md:pl-6 md:mt-0 p-5">
+              <h2 class="text-2xl font-bold mb-9 text-center text-blue-500">Contact Form</h2>
+              <form action="index.html" method="post" class="space-y-4">
+                <div>
+                  <input type="text"  class="mt-1 block w-full h-10 rounded-3xl pl-4 placeholder-blue-500" placeholder="Name">
+                </div>
+                <div>
+                  <input type="email" class="mt-1 block w-full h-10 rounded-3xl pl-4 placeholder-blue-500" placeholder="Email">
+                </div>
+                <div>
+                  <input type="text" class="mt-1 block w-full h-10 rounded-3xl pl-4 placeholder-blue-500" placeholder="Subject">
+                </div>
+                <div>
+                  <textarea rows="4" class="mt-1 block w-full h-20 rounded-3xl pt-6 pl-4 placeholder-blue-500" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 px-4 rounded-3xl shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Submit</button>
+              </form>
+            </div>
+        </div>
+        <div class="p-6 max-w-6xl md:mx-auto ml-4 mr-4 mb-4 bg-gradient-to-r from-blue-100 to-blue-50 rounded-3xl shadow-md">
+            <h2 class="text-2xl font-bold mb-4 text-center">Contact Information</h2>
+            <p class="text-gray-700 space-y-5 text-lg px-6 font-semibold">For Professional Inquiries, you can reach me at:</p>
+            <p class="mt-2 text-gray-800 space-y-5 text-lg px-6 font-semibold">Email:
+                <span class="text-blue-500 hover:underline">
+                    i222446@nu.edu.pk
+                </span>
+            </p>
+            <p class="mt-2 text-gray-800 space-y-5 text-lg px-6 font-semibold">Phone:
+                <span class="text-blue-500 hover:underline">
+                    +92 316 2781747
+                </span>
+            </p>
+          </div>
+    </div>
+    <script src="./app.js"></script><!-- Only For Opening And Closing Hamburger Menu-->
+</body>
+</html>
+
+<!--flex used so that i can place the form and the contact information in the center of the screen increasing user readability because that is the main focus of this page and having a good user experience.-->

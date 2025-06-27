@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-Montserrat">
+    <div class="h-1/2 lg:h-screen">
+        <nav class="w-full fixed-nav top-0 bg-white">
+            <div class="container mx-auto py-5 p-1 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <a href="index.html">
+                    <img class="w-8" src="./img/dot.svg" alt=""></a>
+                    <span class="text-1xl font-bold text-black">IMAD</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 text-gray-500 font-semibold">
+                    <li class="hover:text-black">
+                        <a href="./personalpage.html">Personal Profile</a>
+                    </li>
+                    <li class="hover:text-black">
+                        <a href="./gallerypage.html">Gallery Page</a>
+                    </li>
+                    <li class="hover:text-black">
+                        <a href="./careergoals.html">Career Goals</a>
+                    </li>
+                    <li class="hover:text-black text-black">
+                        <a href="./project.html">Projects</a>
+                    </li>
+                    <li class="hover:text-black">
+                        <a href="./skillsandinterest.html">Skills and Interests</a>
+                    </li>
+                    <li class="hover:text-black">
+                        <a href="./contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer">
+                    <div class="w-6 h-1 bg-black rounded-xl"></div>
+                    <div class="w-6 h-1 bg-black rounded-xl"></div>
+                    <div class="w-6 h-1 bg-black rounded-xl"></div>
+                </div>
+                <ul id="menu" class="hidden bg-white absolute left-0 top-20 w-full p-10 space-y-10 text-b rounded-2xl z-20">
+                    <li>
+                        <a href="./personalpage.html">Personal Profile</a>
+                    </li>
+                    <li>
+                        <a href="./gallerypage.html">Gallery Page</a>
+                    </li>
+                    <li>
+                        <a href="./careergoals.html">Career Goals</a>
+                    </li>
+                    <li>
+                        <a href="./project.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./skillsandinterest.html">Skills and Interests</a>
+                    </li>
+                    <li>
+                        <a href="./contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="grid-section p-6 mt-3">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div class=" rounded-3xl overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="./img/railway.avif" alt="Project 1" class="w-full h-56 object-cover">
+                    <div class="p-4 bg-gradient-to-b from-red-100 to-orange-50">
+                      <h2 class="text-xl font-bold mb-2">Railway Management System</h2>
+                      <p class="text-gray-700 mb-4">An effective and efficient solution for managing train schedules, tickets, bookings and real-time luggage tracking. It makes all the operations user-friendly.</p>
+                      <div class="flex items-center space-x-2 mb-4 justify-between">
+                        <p class="text-blue-600">JavaFX, SceneBuilder, MySQL</p>
+                        <a href="https://github.com/Imaduddin-Ansari" class="transition-transform transform hover:-translate-y-2 hover:scale-110">
+                          <img class="w-12 " src="./img/github.png" alt="GitHub">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class=" rounded-3xl overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="./img/TAmanagementsystem.jpg" alt="Project 1" class="w-full h-56 object-cover">
+                    <div class="p-4 bg-gradient-to-b from-blue-100 to-blue-50">
+                      <h2 class="text-xl font-bold mb-2">TA Management System</h2>
+                      <p class="text-gray-700 mb-4">An effective and efficient solution for managing teacher assistors and lab demonstrators.They can use the system to manage student's grades, schedule demos and etc.</p>
+                      <div class="flex items-center space-x-2 mb-4 justify-between">
+                        <p class="text-blue-600">C#, Microsoft Visual Studios (Forms), Microsoft SQL Server</p>
+                        <a href="https://github.com/Imaduddin-Ansari" class="transition-transform transform hover:-translate-y-2 hover:scale-110">
+                          <img class="w-12 " src="./img/github.png" alt="GitHub">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class=" rounded-3xl overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="./img/flights2.jpg" alt="Project 1" class="w-full h-56 object-cover">
+                    <div class="p-4 bg-gradient-to-b from-blue-200 to-blue-50">
+                      <h2 class="text-xl font-bold mb-2">Flight Management System</h2>
+                      <p class="text-gray-700 mb-4">An effective and efficient solution for managing flight schedules, tickets, bookings and real-time luggage tracking. It makes all the operations user-friendly.</p>
+                      <div class="flex items-center space-x-2 mb-4 justify-between">
+                        <p class="text-blue-600">C++ (OOP)</p>
+                        <a href="https://github.com/Imaduddin-Ansari" class="transition-transform transform hover:-translate-y-2 hover:scale-110">
+                          <img class="w-12 " src="./img/github.png" alt="GitHub">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class=" rounded-3xl overflow-hidden transition-transform transform hover:scale-105">
+                    <img src="./img/ship.jpg" alt="Project 1" class="w-full h-56 object-cover">
+                    <div class="p-4 bg-gradient-to-b from-orange-100 to-blue-50">
+                      <h2 class="text-xl font-bold mb-2">Battle Ship Game</h2>
+                      <p class="text-gray-700 mb-4">A fun to play 2-D battle ship game where both players take turn trying to sink the opponent's ship by guessing on a 10x10 grid</p>
+                      <div class="flex items-center space-x-2 mb-4 justify-between">
+                        <p class="text-blue-600">Ubuntu, C++, GUI Libraries</p>
+                        <a href="https://github.com/Imaduddin-Ansari" class="transition-transform transform hover:-translate-y-2 hover:scale-110">
+                          <img class="w-12 " src="./img/github.png" alt="GitHub">
+                        </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script><!-- Only For Opening And Closing Hamburger Menu-->
+</body>
+</html>
+
+<!--Grid used to effectivly show the projects equally distributed and increasing readability and mobile friendliness-->
